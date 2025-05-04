@@ -1,33 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 😁🦷 Smile-Match AI
 
-## Getting Started
+**Smile-Match AI** is an AI-powered dental analysis and veneer recommendation platform designed to transform dental care. This app uses face and teeth analysis to provide users with custom dental routines, treatment simulations, and reports — all in one place. It also enables seamless communication with doctors via email and appointment scheduling.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🧠 **AI-Based Face & Teeth Analysis** using advanced Computer Vision  
+- 🦷 **Veneer & Invisalign Recommendation System** based on dental models  
+- 📅 **Appointment Booking** integrated with Calendly  
+- 📧 **Email to Doctor** with full dental reports via Nodemailer  
+- 🧪 **Dental Routine Tracker** with intelligent suggestions and monitoring  
+- 🦷 **3D Dental Simulator** for visualizing Overbite, Crossbite, Underbite, and Treatments  
+- 📰 **Dental Journey Blog** and tips for oral care education
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack
 
-## Learn More
+| Tech               | Purpose                                      |
+|--------------------|----------------------------------------------|
+| **Next.js 14**     | Full-stack React framework (App Router)      |
+| **TypeScript**     | Type-safe development                        |
+| **Prisma ORM**     | Database modeling and querying               |
+| **PostgreSQL**     | Scalable and secure database (Neon)          |
+| **Nodemailer**     | Sending dental reports to doctors via email  |
+| **Calendly API**   | Appointment booking integration              |
+| **NanoID**         | Unique identifiers for reports and bookings  |
+| **Three.js**       | 3D visualization of dental models            |
+| **Computer Vision**| AI-powered teeth/face analysis               |
+| **Vortex AI**      | Custom AI for veneer recommendation engine   |
+| **Blender**        | Created high-quality veneer and jaw models   |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Dental Simulator
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Visualize treatments in real-time with interactive 3D models:
+
+🦷 **Models**: Overbite, Underbite, Crossbite  
+💡 **Treatments**: Invisalign, Veneers  
+
+Built using **Three.js** and **Blender**-generated assets for a hyper-realistic experience.
+
+---
+
+## 📂 Folder Structure
+
+
 
 ## Deploy on Vercel
 
